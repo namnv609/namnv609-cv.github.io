@@ -10,11 +10,27 @@ body {
   #wrapper {
     width: 1024px;
     margin: 0 auto;
+    padding: 0 0 20px 0;
     .header {
       padding: 20px 0;
       color: $main-color;
     }
     .content {
+      a {
+        color: $main-color;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      p {
+        padding: 2px 0;
+      }
+      ul {
+        li {
+          margin: 0 0 0 20px;
+        }
+      }
       .personal-info {
         width: 400px;
         float: left;
