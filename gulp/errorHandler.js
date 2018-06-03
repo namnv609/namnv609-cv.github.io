@@ -8,5 +8,5 @@ module.exports = function() {
     message: "<%= error.message %>"
   }).apply(this, args);
 
-  this.emmit("end");
+  this.emit("end");
 }

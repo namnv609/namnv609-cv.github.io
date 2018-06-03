@@ -1,0 +1,60 @@
+$main-color: #005c82;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  #wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    .header {
+      padding: 20px 0;
+      color: $main-color;
+    }
+    .content {
+      .personal-info {
+        width: 400px;
+        float: left;
+        margin-right: 4px;
+        .image {
+          text-align: center;
+          img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+          }
+        }
+        .information {
+
+        }
+        .skills {
+
+        }
+      }
+      .work-exp-edu {
+        width: 620px;
+        float: left;
+        .work-exp {
+
+        }
+        .education {
+
+        }
+      }
+      .title-heading {
+        color: $main-color;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 4px 0;
+        margin: 0 0 4px 0;
+        border-bottom: 1px solid #CCC;
+      }
+    }
+  }
+  .clearfix {
+    clear: both;
+  }
+}
