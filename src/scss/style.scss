@@ -59,6 +59,32 @@ body {
         .education {
 
         }
+        .container {
+          margin: 10px 0;
+          .year {
+            width: 20%;
+            float: left;
+            font-weight: bold;
+          }
+          .detail {
+            width: 80%;
+            float: left;
+            ul {
+              li {
+                list-style-type: decimal;
+                font-weight: bold;
+                padding: 6px 0;
+              }
+              &.sub {
+                li {
+                  list-style-type: square;
+                  font-weight: normal;
+                  padding: 0;
+                }
+              }
+            }
+          }
+        }
       }
       .title-heading {
         color: $main-color;
